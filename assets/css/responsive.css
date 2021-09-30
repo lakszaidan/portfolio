@@ -1,0 +1,149 @@
+@media only screen and (max-width: 600px) {
+    nav li{
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    nav{
+        padding: 20px !important;
+    }
+
+    .navbar-nav{
+        width: 100% !important;
+    }
+
+    nav .logout-btn a{
+        /* display: none; */
+        margin-top: 15px;
+        width: 100% !important;
+        font-size: 14px;
+    }
+
+    nav #burger-btn{
+        display: inherit;
+    }
+
+    .jumbotron{
+        padding: 30px 40px;
+    }
+
+    .jumbotron h1{
+        font-size: 50px;
+        text-align: left;
+        color: #f1f1f1;
+        
+    }
+    
+    .jumbo-text p{
+        margin: 30px 0;
+        color: #f1f1f1;
+        font-size: 14px;
+    }
+
+    .jumbotron-img{
+        margin: 40px 0!important;
+    }
+
+    .jumbotron-img img{
+        width: 100%;
+    }
+
+    /* MAIN */
+
+    article{
+        padding: 50px 50px 100px;
+        /* background-color: #ffffff; */
+        /* margin-top: 100px; */
+        position: relative;
+    }
+
+    article h1{
+        font-size: 25px;
+    }
+
+    .line{
+        width: 90%;
+        height: 4px;
+        margin-top: -7px;
+        background-color: #274c77;
+    }
+
+    .content{
+        line-height: 30px;
+        padding: 20px 0;
+        margin: auto;
+        text-indent: 30px;
+        width: 100%;
+    }
+
+    .content p, .catalog-title p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    /* CATALOG */
+
+    .catalog-title{
+        margin: 40px 0 0 0;
+    }
+    
+    .catalog-title .line{
+        width: 60%;
+        margin-top: -13px !important;
+    }
+    
+    .catalog-title p{
+        padding: 20px 0;
+        text-indent: 30px;
+        line-height: 30px;
+    }
+
+    .catalog{
+        margin: -30px auto;
+        width: 110%;
+        padding: 20px 0 0 0;
+        height: 250px;
+        display: flex;
+        overflow: auto;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        white-space: nowrap;
+    }
+    
+    .catalog-list{
+        border: 1;
+        border-radius: 10px;
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        width: 240px;
+        height: 180px;
+        margin: 0 10px;
+        position: relative;
+        cursor: pointer;
+        transition: all .25s ease; 
+    }
+
+    .catalog-list img{
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        border: 1;
+        border-radius: 10px;
+    }
+    .catalog-list p{
+        bottom: -15px;   
+        position: absolute;
+        color: #f1f1f1;
+        padding: 10px;
+        background-color: transparent;
+        transition: all .25s ease; 
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+
+    footer .socials, footer .contact, footer .address{
+        margin-top: 20px;
+    }
+
+}

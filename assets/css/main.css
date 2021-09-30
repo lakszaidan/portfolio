@@ -1,0 +1,179 @@
+@font-face{
+    font-family: NotoSerif;
+    src: url(../fonts/NotoSerif-Regular.ttf);
+}
+
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #313c3d !important;
+}
+
+.title, footer h1{
+    font-family: 'NotoSerif' !important;
+    color: #f1f1f1;
+}
+
+nav{
+    padding: 15px 50px !important;
+    background-color: #2a3435;
+}
+
+.title{
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px 22px;
+}
+
+li a{
+    color: #f1f1f1;
+    list-style: none;
+    transition: all .2s ease;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #5e5e5e;
+}
+
+nav ul{
+    /* margin-top: 15px; */
+    margin-left: -20px;
+}
+
+.logout-btn a{
+    width: 100px;
+}
+
+.active{
+    border-bottom: 2px solid #2652cc;
+}
+
+#burger-btn{
+    display: none;
+}
+
+nav i{
+    color: #f1f1f1;
+}
+
+#responsive-nav{
+    display: none;
+}
+
+.jumbotron{
+    user-select: none;
+    padding: 80px 50px 110px;
+    /* height: 550px; */
+}
+
+.jumbotron h1{
+    font-size: 70px;
+    text-align: left;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-text p{
+    margin-top: 20px;
+    color: #f1f1f1;
+}
+
+.jumbotron-img img{
+    width: 100%;
+}
+
+
+/* MAIN */
+
+article{
+    padding: 90px 50px 150px;
+    /* background-color: #f1f1f1; */
+    /* margin-top: 300px; */
+}
+
+.line{
+    width: 70%;
+    height: 6px;
+    margin-top: -10px;
+    background-color: #274c77;
+}
+
+.content{
+    line-height: 30px;
+    padding: 30px 30px;
+    margin: auto;
+    text-indent: 30px;
+    width: 100%;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+article hr{
+    margin-top: 100px;
+}
+
+
+/* Footer */
+
+
+footer{
+    /* display: flex; */
+    margin-top: 200px;
+    background-color: #212529;
+    padding: 30px 70px;
+    /* align-items: flex-start;
+    justify-content: space-between; */
+}
+
+footer i{
+    color: #f1f1f1;
+    font-size: 15px;
+    padding-right: 12px;
+}
+
+footer h5{
+    color: #adb5bd;
+    font-size: 15px;
+}
+
+footer p, footer td{
+    font-size: 13px;
+}
+
+footer a{
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: all .12s ease;
+}
+
+footer a:hover{
+    color: #2652cc;
+}
+
+.brand p{
+    color: #f1f1f1;
+    letter-spacing: 0.1rem;
+}
+
+.socials p{
+    margin: 0;
+    padding: 0;
+}
