@@ -44,9 +44,6 @@ function renderPlaces(item){
   console.log(places[0])
 }
 
-renderPlaces(places)
-
-
 const navbar = document.getElementById("navbar");
 const footer = document.getElementById("footer");
 
@@ -86,3 +83,6 @@ footer.innerHTML = `<div class="brand col-lg-4">
   </tr>
 </table>
 </div>`;
+
+renderPlaces(places)
+
