@@ -2,32 +2,32 @@ const places = [
   {
     id: 1,
     place: 'Ankara, Turki',
-    image: 'assets/images/bazaar-1853361_1920.jpg' 
+    image: 'https://ik.imagekit.io/lza/bazaar-1853361_1920_dSHdm_jrs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660231908333' 
   },
   {
     id: 2,
     place: 'Gurun Sahara',
-    image: 'assets/images/desert.jpg'
+    image: 'https://ik.imagekit.io/lza/desert_etjNclDSo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660231908405'
   },
   {
     id: 3,
     place: 'Madrid, Spanyol',
-    image: 'assets/images/spain-4522800_1920.jpg'
+    image: 'https://ik.imagekit.io/lza/spain-4522800_1920_i_Ov7ck4c.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660231906591'
   },
   {
     id: 4,
     place: 'Jawa Barat, Indonesia',
-    image: 'assets/images/sawah.jpg'
+    image: 'https://ik.imagekit.io/lza/sawah_I8_yCsvUl.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660231925092'
   },
   {
     id: 5,
     place: 'Kota Tangier, Maroko',
-    image: 'assets/images/maroko.jpg'
+    image: 'https://ik.imagekit.io/lza/maroko_x6gz7i8KG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660231914125'
   },
   {
     id: 6,
     place: 'Kota Yogyakarta, DI Yogyakarta',
-    image: 'assets/images/pantai.jpg'
+    image: 'https://ik.imagekit.io/lza/pantai_mNQMsOfoq.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660231915654'
   }
 ]
 
